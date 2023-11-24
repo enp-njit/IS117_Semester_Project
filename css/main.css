@@ -1,3 +1,12 @@
+nav {
+
+}
+.carousel-inner {
+    margin: auto;
+    padding: auto;
+    max-width: 85%;
+}
+
 .footer {
     position: fixed;
     left: 0;
@@ -9,7 +18,5 @@
     padding: 10px;
     font-size: 0.8rem;
 }
-.carousel-inner {
-    margin: auto;
-    padding: auto;
-}
+
+
