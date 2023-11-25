@@ -2,11 +2,20 @@ nav {
 
 }
 .carousel-inner {
-    margin: auto;
+    margin: 1em auto;
     padding: auto;
-    max-width: 85%;
+    max-width: 90%;
 }
 
+body h2 {
+    font-size: 4em;
+}
+.carousel-control-prev {
+    margin-left: .5em;
+}
+.carousel-control-next {
+    margin-right: .5em;
+}
 .footer {
     position: fixed;
     left: 0;
