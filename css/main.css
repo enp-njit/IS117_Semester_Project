@@ -10,6 +10,7 @@ nav {
 
 body h2 {
     font-size: 3em;
+    margin-top: .5em;
 }
 
 body h3 {
@@ -20,12 +21,22 @@ body h3 {
     background-color: #f4b942;
 }
 
+#carouselExampleAutoplaying {
+    margin-bottom: 1em;
+}
+
 .carousel-control-prev {
     margin-left: .5em;
 }
+
 .carousel-control-next {
     margin-right: .5em;
 }
+
+body container {
+    margin-bottom: 1em;
+}
+
 .footer {
     position: fixed;
     left: 0;
