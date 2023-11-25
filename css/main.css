@@ -4,12 +4,21 @@ nav {
 .carousel-inner {
     margin: 1em auto;
     padding: auto;
-    max-width: 90%;
+    max-width: 70%;
 }
 
 body h2 {
-    font-size: 4em;
+    font-size: 3em;
 }
+
+body h3 {
+    font-size: 1 em;
+}
+
+.btn btn-outline-success {
+    background-color: #f4b942;
+}
+
 .carousel-control-prev {
     margin-left: .5em;
 }
