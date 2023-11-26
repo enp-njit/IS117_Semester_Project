@@ -8,6 +8,7 @@
 body h2 {
     font-size: 3em;
     margin-top: .5em;
+    font-family: Montserrat Variablefont Wght, sans-serif;
 }
 
 body h3 {
@@ -31,10 +32,25 @@ body h3 {
 }
 
 .container-md-fluid {
-    background-color: #eff2f1;
+    background-color: #EFF2F1;
     padding-top: 1.5em;
+    padding-bottom: 5em;
 }
 
+.container-md-fluid h2 {
+    padding-left: .8em;
+    padding-bottom: .5em;
+    font-size: 3 em;
+    font-family: Montserrat Variablefont Wght, sans-serif;
+    color: ;
+}
+
+.card h-100 {
+}
+
+.card-body {
+    background-color: lightsteelblue;
+}
 
 .footer {
     position: fixed;

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12" > <!-- navbar sticky-top bg-body-tertiary (sticky top)-->
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html" rel="home">
+                <img src="../images/reinboee_logo.JPG" alt="Reinboee art logo" height="40">
+            </a>
+
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav col-md-8">
+                    <!-- Link 1 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../links/about_me.html">About Me</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                           data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Gallery
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="../links/gallery_personal_work.html">Personal Work</a>
+                            <a class="dropdown-item" href="../links/gallery_commissions.html">Commissions</a>
+                        </div>
+                    </li>
+                    <!-- Link 2 -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="../links/contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex col-md-4" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+
+        <!-- Contact Form -->
+        <div class="container mt-md-5">
+            <h1 class="text-center mb-md-5">Leave Me a Message!</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="">
+                        <div class="form-group mb-md-3">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" class="form-control" id="firstname"
+                                   placeholder="First name" name="firstname">
+                        </div>
+                        <div class="form-group mb-md-3">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname"
+                                   placeholder="Last name" name="lastname">
+                        </div>
+                        <div class="form-group mb-md-3">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email"
+                                   placeholder="Enter email" name="email">
+                        </div>
+                        <div class="form-group form-check mb-md-3">
+                            <label class="form-check-label">
+                                <input class="form-check-input"
+                                       type="checkbox" name="subscribe"> Subscribe
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    </row>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer page-footer font-small ">
+        <div class="container">
+            <div class="row">
+                <span>&copy; Erin Ponce, 2023 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>
