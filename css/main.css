@@ -1,13 +1,14 @@
 
+
 .carousel-inner {
-    margin: 1em auto;
+    margin: 1em auto 2em;
     padding: auto;
     max-width: 90%;
 }
 
 body h2 {
     font-size: 3em;
-    margin-top: .5em;
+    margin-top: 1em;
     font-family: Montserrat Variablefont Wght, sans-serif;
 }
 
@@ -33,23 +34,31 @@ body h3 {
 
 .container-md-fluid {
     background-color: #EFF2F1;
-    padding-top: 1.5em;
+    padding-top: 1em;
     padding-bottom: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 
 .container-md-fluid h2 {
     padding-left: .8em;
     padding-bottom: .5em;
-    font-size: 3 em;
+    font-size: 5 rem;
     font-family: Montserrat Variablefont Wght, sans-serif;
-    color: ;
+    color: #333;
 }
 
 .card h-100 {
 }
 
 .card-body {
-    background-color: lightsteelblue;
+    background-color: #CFDEE7;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #6B9AC4;
+    color: white;
 }
 
 .footer {
