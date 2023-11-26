@@ -1,7 +1,4 @@
 
-nav {
-
-}
 .carousel-inner {
     margin: 1em auto;
     padding: auto;
@@ -22,7 +19,7 @@ body h3 {
 }
 
 #carouselExampleAutoplaying {
-    margin-bottom: 1em;
+    margin-bottom: 5em;
 }
 
 .carousel-control-prev {
@@ -33,10 +30,11 @@ body h3 {
     margin-right: .5em;
 }
 
-body container {
-    height: 2em;
-    margin-bottom: 1em;
+.container-md-fluid {
+    background-color: #eff2f1;
+    padding-top: 1.5em;
 }
+
 
 .footer {
     position: fixed;
