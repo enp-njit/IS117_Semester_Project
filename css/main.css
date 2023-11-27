@@ -82,6 +82,16 @@ body h3 {
     padding: 4em;
 }
 
+#about {
+    margin-top: 3em;
+    background-color: white;
+}
+
+/*
+a:focus, a:hover {
+    font-style: italic;
+}
+*/
 
 
 /* Personal Work and Commission Page */
