@@ -80,12 +80,23 @@ body h2 {
 }
 
 #about {
-    margin-top: 3em;
+    margin-top: 1em;
     background-color: white;
     margin-bottom: 4em;
+    padding: .3em 2em 1em;
 }
 
-/* #Reinboee Cat */
+
+/*
+.col-md-5 me-md-4 mt-md-4 {
+    float: left;
+}
+*/
+
+#Reinboee Cat {
+    float: left;
+    margin-right: 20px;
+}
 
 /*
 a:focus, a:hover {
