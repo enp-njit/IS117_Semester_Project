@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #EFF2F1;
+    background-color: #CFDEE7; /*#e5e7e6*/
 }
 
 .carousel-inner {
@@ -60,10 +60,14 @@ body h3 {
     color: #333;
 }
 
+.card h-100 {
+    padding-bottom: 2em;
+}
 
 .card-body {
     background-color: #CFDEE7;
     color: #333;
+    padding-bottom: 1em;
 }
 
 .btn-primary {
@@ -79,11 +83,16 @@ body h3 {
     padding: 4em;
 }
 
+
+
 /* Personal Work and Commission Page */
 .jumbotron {
     margin-bottom: 4em;
 }
 
+.lead {
+    color: black;
+}
 
 
 .footer {
