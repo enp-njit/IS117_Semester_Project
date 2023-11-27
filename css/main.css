@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #EFF2F1; /*#e5e7e6*/
+    background-color: #e8ebea; /*#e5e7e6*/
 }
 
 .carousel-inner {
@@ -53,7 +53,6 @@ body h3 {
 }
 
 .container-md-fluid h2 {
-    padding-left: .8em;
     padding-bottom: .5em;
     font-size: 5 rem;
     font-family: Montserrat Variablefont Wght, sans-serif;
@@ -88,10 +87,6 @@ body h3 {
 /* Personal Work and Commission Page */
 .jumbotron {
     margin-bottom: 4em;
-}
-
-.lead {
-    color: black;
 }
 
 
